@@ -1,0 +1,87 @@
+------Headers
+큰 제목 : 문서 제목
+
+작은 제목 : 문서 부제목 
+
+
+# This is a H1
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6
+
+
+------BlockQuote
+> This is a first blockqute
+
+
+------List
+1. 순서는 내림차순
+2. 순서는 내림차순 
+
+
+* 순서없는 목록 
++ 순서없는 목록
+- 순서없는 목록
+
+------Code
+1. 들여쓰기
+
+4개의 공백, 하나의 탭으로 들여쓰기 : 변환 시작 / 들여쓰지 않는 행 나올때까지 변환 
+한줄 띄어쓰기해야 인식이 됨 
+
+This is a code
+    This is a code
+end code
+
+2. 코드블럭코드("```")
+<pre><code>{code}</code></pre>
+
+```언어선언 
+   Syntax highlighting(문법강조)
+```
+
+3.  수평선 <hr/>
+* * *
+***
+****
+- - -
+-------------------------
+
+4. Link
+*참조링크
+[link keyword][id]
+[id] : URL "Optional Title here"
+
+// code
+Link : [Google][goglelink]
+[goglelink]: https://gogle.com "Go google"
+
+*외부링크
+사용문법 : [Title](link)
+적용  예 : [Google](https://google.com, "google link")
+
+*자동연결
+일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크 형성
+*외부링크<http://example.com/>
+*이메일링크:<address@example.com>
+
+
+5. 강조
+문장 중간 사용할 경우 **띄어쓰기** 를 사용
+*emphasis*
+_emphasis_
+**emphasis**
+__emphasis__
+~~emphasis~~
+
+
+6. 이미지
+<img src="/../img.jpg" width="" height="" title="px크기설정" alt="img"></img><br/>
+
+
+7. 줄바꿈
+문장 마지막 3칸이상 띄어쓰기 
+
+
